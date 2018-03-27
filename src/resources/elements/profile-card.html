@@ -1,0 +1,8 @@
+<template>
+  <require from="./profile-card.scss"></require>
+  <require from="../value-converters/date-format"></require>
+  <div class="profile-card">
+    <h2>${label}</h2>
+    <h4>${today | dateFormat}</h4>
+  </div>
+</template>

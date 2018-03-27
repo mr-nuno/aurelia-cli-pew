@@ -1,0 +1,11 @@
+@import "../../styles/_variables.scss";
+
+.profile-card {
+  float:left;
+  border: 4px solid $green;
+  border-radius: 5px;
+  padding: $padding;
+  margin: $margin;
+  background-color: $blue;
+  color: $white;
+}

@@ -1,0 +1,34 @@
+@import "./styles/_reset.scss";
+@import "./styles/_variables.scss";
+@import "./styles/_app.scss";
+
+h1{
+  color: $blue;
+}
+
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.sidebar{
+  background-color: $red;
+  display: flex;
+  flex-flow: column wrap;
+  width: 25%;
+}
+
+.content {
+  background-color: $cyan;
+  width: 75%;
+}
+
+.content div{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+
+
+
